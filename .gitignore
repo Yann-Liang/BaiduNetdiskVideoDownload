@@ -1,0 +1,5 @@
+.idea
+/build
+/dist
+/venv
+gui.spec

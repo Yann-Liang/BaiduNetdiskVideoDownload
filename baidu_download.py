@@ -191,6 +191,7 @@ class File:
             stderr=subprocess.STDOUT,  # 将 stderr 合并到 stdout
             text=True,  # 确保输出为文本而不是字节
             bufsize=1,  # 行缓冲
+            encoding='utf-8',
             shell=True  # 如果命令是字符串形式，使用 shell=True
         )
 
